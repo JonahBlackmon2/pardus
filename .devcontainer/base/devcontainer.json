@@ -3,6 +3,6 @@
         "dockerfile": "./Dockerfile"
     } ,
     "features" : {
-        "python": "install.sh"
+        
     }
 }
