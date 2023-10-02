@@ -2,6 +2,16 @@
     "build": {
         "dockerfile": "./Dockerfile"
     } ,
-    "postCreateCommand": "src/default/install.sh"
+    "postCreateCommand": "src/default/install.sh",
+
+    "customizations": {
+        "codespaces": {
+          "repositories": {
+            "my_org/my_repo": {
+              "permissions": "write-all"
+            }
+          }
+        }
+      }
 }
 
