@@ -2,6 +2,6 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-    "postCreateCommand": "src/default/python.sh"
+    "postCreateCommand": "src/python/install.sh"
 }
 
