@@ -2,6 +2,13 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-    "postCreateCommand": "src/python/install.sh"
+	"postCreateCommand": "src/python/install.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python"
+			]
+		}
+	}
 }
 

@@ -2,6 +2,13 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-    "postCreateCommand": "src/nodejs/install.sh"
+	"postCreateCommand": "src/nodejs/install.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"xabikos.JavaScriptSnippets"
+			]
+		}
+	}
 }
 

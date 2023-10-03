@@ -2,6 +2,13 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-    "postCreateCommand": "src/java/install.sh"
+	"postCreateCommand": "src/java/install.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-java-pack"
+			]
+		}
+	}
 }
 
