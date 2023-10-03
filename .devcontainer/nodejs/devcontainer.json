@@ -1,0 +1,7 @@
+{
+    "build": {
+        "dockerfile": "../Dockerfile"
+    } ,
+    "postCreateCommand": "src/nodejs/install.sh"
+}
+
