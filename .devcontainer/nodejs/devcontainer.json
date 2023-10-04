@@ -2,7 +2,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-	"postCreateCommand": "../src/nodejs/install.sh",
+	"postCreateCommand": ".devcontainer/src/nodejs/install.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
