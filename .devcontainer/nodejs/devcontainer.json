@@ -2,6 +2,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
+<<<<<<< HEAD
 	"postCreateCommand": ".devcontainer/src/nodejs/install.sh",
 	"customizations": {
 		"vscode": {
@@ -10,5 +11,8 @@
 			]
 		}
 	}
+=======
+    "postCreateCommand": "src/nodejs/install.sh"
+>>>>>>> parent of 8fea538 (added extensions to python, java, and nodejs)
 }
 

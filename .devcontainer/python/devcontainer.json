@@ -2,6 +2,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
+<<<<<<< HEAD
 	"postCreateCommand": "/workspaces/AlpinePardusFork/src/python/install.sh",
 	"customizations": {
 		"vscode": {
@@ -10,5 +11,8 @@
 			]
 		}
 	}
+=======
+    "postCreateCommand": "src/python/install.sh"
+>>>>>>> parent of 8fea538 (added extensions to python, java, and nodejs)
 }
 
