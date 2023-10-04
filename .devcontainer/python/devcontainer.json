@@ -2,7 +2,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     } ,
-	"postCreateCommand": "bash ./.devcontainer/src/python/install.sh",
+	"postCreateCommand": "../src/python/install.sh",
 	"customizations": {
 		"vscode": {
 			"extensions": [
