@@ -1,18 +1,13 @@
 {
-    "build": {
-        "dockerfile": "../Dockerfile"
-    } ,
-<<<<<<< HEAD
-	"postCreateCommand": "../src/java/install.sh",
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"vscjava.vscode-java-pack"
-			]
-		}
+"build": {
+	"dockerfile": "../Dockerfile"
+} ,
+"postCreateCommand": "src/java/install.sh",
+"customizations": {
+	"vscode": {
+		"extensions": [
+			"vscjava.vscode-java-pack"
+		]
 	}
-=======
-    "postCreateCommand": "src/java/install.sh"
->>>>>>> parent of 8fea538 (added extensions to python, java, and nodejs)
 }
-
+}
