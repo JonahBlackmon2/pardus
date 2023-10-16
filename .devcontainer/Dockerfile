@@ -4,6 +4,5 @@ RUN apk add git
 RUN apk add coreutils
 RUN apk add bash
 RUN apk add openssh
-RUN apk add openss1
 RUN apk add gpg
 
